@@ -1,2 +1,2 @@
-# NutriScore
+# NutriScan
 Frontend + Backend project
