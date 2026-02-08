@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriScan - Admin Prijava</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="form-container">
+        <form id="loginForm" method="POST" action="login.php">
+            <h2>NutriScan Admin</h2>
+
+            <div class="input-group">
+                <label for="username">Email adresa</label>
+                <input type="email" id="username" name="username" placeholder="admin@gmail.com" required>
+                <div class="error-message" id="usernameError"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Lozinka</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+                <div class="error-message" id="passwordError"></div>
+            </div>
+
+            <button type="submit">Prijavite se</button>
+            <div class="error-message" id="loginError"></div>
+            <div class="success-message" id="loginSuccess"></div>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

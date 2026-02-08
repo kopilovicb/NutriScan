@@ -1,0 +1,22 @@
+{
+    "name": "nutriscan/backend",
+    "description": "NutriScan backend API",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.11",
+        "guzzlehttp/guzzle": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nutriscan\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vedran Crnkovic",
+            "email": "vedranc05@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
